@@ -1,2 +1,2 @@
-# Welcome to Gao-Garrix's personal homepage!
+# Welcome to Gao-Garrix's homepage!
 I will share my study notes here.
