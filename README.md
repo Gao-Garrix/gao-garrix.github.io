@@ -123,7 +123,7 @@
 <div align="center">
   <h3>最近更新</h3>
   <ul>
-    <li><a href="/_posts/2024-10-02-Makefile与CMake.md">Makefile与CMake</a> - 2024-10-02</li>
+    <li><a href="./_posts/2024-10-02-Makefile与CMake.md">Makefile与CMake</a> - 2024-10-02</li>
   </ul>
 </div>
 
