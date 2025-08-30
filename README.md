@@ -121,13 +121,6 @@
 </div>
 
 <div align="center">
-  <h3>最近更新</h3>
-  <ul>
-    <li><a href="./_posts/2024-10-02-Makefile与CMake.md">Makefile与CMake</a> - 2024-10-02</li>
-  </ul>
-</div>
-
-<div align="center">
   <h3>联系方式</h3>
   <p>邮箱: junnmail@163.com</p>
   <p>GitHub: <a href="https://github.com/gao-garrix" target="_blank">github.com/gao-garrix</a></p>
