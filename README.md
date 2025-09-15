@@ -125,3 +125,12 @@
   <p>邮箱: junnmail@163.com</p>
   <p>GitHub: <a href="https://github.com/gao-garrix" target="_blank">github.com/gao-garrix</a></p>
 </div>
+
+<div align="center">
+  <h3>技术专题</h3>
+  <a href="{{ '/categories/C++/' | relative_url }}">C++</a> |
+  <a href="{{ '/categories/MySQL/' | relative_url }}">MySQL</a> |
+  <a href="{{ '/categories/Golang/' | relative_url }}">Golang</a> |
+  <a href="{{ '/categories/Redis/' | relative_url }}">Redis</a> |
+  <a href="{{ '/categories/Kafka/' | relative_url }}">Kafka</a>
+</div>
