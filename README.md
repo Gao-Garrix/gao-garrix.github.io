@@ -128,10 +128,10 @@
 
 <div align="center">
   <h3>技术专题</h3>
-  <a href="{{ '/categories/C++/' | relative_url }}">C++</a> |
-  <a href="{{ '/categories/MySQL/' | relative_url }}">MySQL</a> |
-  <a href="{{ '/categories/Golang/' | relative_url }}">Golang</a> |
-  <a href="{{ '/categories/Redis/' | relative_url }}">Redis</a> |
-  <a href="{{ '/categories/Kafka/' | relative_url }}">Kafka</a> |
-  <a href="{{ '/categories/Docker/' | relative_url }}">Kafka</a>
+  <a href="{{ site.baseurl }}/categories/C++/">C++</a> |
+  <a href="{{ site.baseurl }}/categories/Golang/">Golang</a> |
+  <a href="{{ site.baseurl }}/categories/MySQL/">MySQL</a> |
+  <a href="{{ site.baseurl }}/categories/Redis/">Redis</a> |
+  <a href="{{ site.baseurl }}/categories/Kafka/">Kafka</a> |
+  <a href="{{ site.baseurl }}/categories/Docker/">Docker</a>
 </div>

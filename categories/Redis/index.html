@@ -1,0 +1,24 @@
+---
+layout: default
+title: Redis Category
+---
+
+<div class="home">
+  <h1 class="page-heading">Redis Posts</h1>
+  
+  <ul class="post-list">
+    {% for post in site.categories.Redis %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+  
+  {% if site.categories.Redis == empty %}
+    <p>该分类下暂无文章。</p>
+  {% endif %}
+</div>

@@ -1,6 +1,7 @@
 ---
 title: "Makefile与CMake"
 date: 2024-10-02
+categories: C++
 ---
 
 # CMake与Makefile详解
