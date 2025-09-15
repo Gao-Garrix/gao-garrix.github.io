@@ -1,0 +1,16 @@
+---
+layout: default
+title: Categories
+---
+
+<h1>Categories</h1>
+
+<p>以下是博客文章的分类，点击分类可以查看该分类下的所有文章：</p>
+
+<ul>
+  {% for category in site.categories %}
+    <li>
+      <a href="{{ site.baseurl }}/categories/{{ category[0] }}">{{ category[0] }}</a> ({{ category[1].size }}篇文章)
+    </li>
+  {% endfor %}
+</ul>

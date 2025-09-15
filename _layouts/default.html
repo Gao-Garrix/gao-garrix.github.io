@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <nav class="site-nav">
+          <a href="{{ site.baseurl }}/categories.html" class="menu-item">Categories</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        <p>&copy; {{ site.time | date: "%Y" }} - {{ site.author }}</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

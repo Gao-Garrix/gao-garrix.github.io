@@ -7,3 +7,7 @@ collections:
   categories:
     output: true
     permalink: /categories/:name/
+
+# 分类页面设置
+category_title_prefix: "分类: "
+

@@ -1,0 +1,73 @@
+/* 基本样式 */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 标题样式 */
+h1, h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+h1 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+/* 导航栏样式 */
+.site-header {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.site-nav {
+  float: right;
+}
+
+.site-nav a {
+  margin-left: 20px;
+}
+
+/* 分类标签样式 */
+.category-tag {
+  background-color: #f1f1f1;
+  color: #555;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+.category-tag a {
+  color: #555;
+  text-decoration: none;
+}
+
+.category-tag a:hover {
+  text-decoration: underline;
+}
+
+/* 列表样式 */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* 页脚样式 */
+.site-footer {
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  text-align: center;
+  color: #777;
+  font-size: 0.9em;
+}

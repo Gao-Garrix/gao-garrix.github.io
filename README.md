@@ -3,6 +3,7 @@
 <div align="center">
   <h1>Welcome to Gao Garrix's Personal Website</h1>
   <p>此网站用于分享我的学习笔记与技术探索</p>
+  <p>所有技术文章均按照分类组织，点击分类可查看相关主题的所有文章</p>
 </div>
 
 <div align="center">
@@ -121,6 +122,13 @@
 </div>
 
 <div align="center">
+  <h3>博客结构</h3>
+  <p>本博客基于 Jekyll 构建，所有文章均存储在 <code>_posts</code> 目录下</p>
+  <p>文章按照技术领域分类，包括但不限于：C++、Golang、MySQL、Redis、Docker、Kafka 等</p>
+  <p>点击主页上的分类链接或访问 <a href="{{ site.baseurl }}/categories.html">分类页面</a> 可查看所有分类</p>
+</div>
+
+<div align="center">
   <h3>联系方式</h3>
   <p>邮箱: junnmail@163.com</p>
   <p>GitHub: <a href="https://github.com/gao-garrix" target="_blank">github.com/gao-garrix</a></p>
@@ -128,10 +136,19 @@
 
 <div align="center">
   <h3>技术专题</h3>
-  <a href="{{ site.baseurl }}/categories/C++/">C++</a> |
-  <a href="{{ site.baseurl }}/categories/Golang/">Golang</a> |
-  <a href="{{ site.baseurl }}/categories/MySQL/">MySQL</a> |
-  <a href="{{ site.baseurl }}/categories/Redis/">Redis</a> |
-  <a href="{{ site.baseurl }}/categories/Kafka/">Kafka</a> |
-  <a href="{{ site.baseurl }}/categories/Docker/">Docker</a>
+  <a href="{{ site.baseurl }}/categories/C++">C++</a> |
+  <a href="{{ site.baseurl }}/categories/Golang">Golang</a> |
+  <a href="{{ site.baseurl }}/categories/MySQL">MySQL</a> |
+  <a href="{{ site.baseurl }}/categories/Redis">Redis</a> |
+  <a href="{{ site.baseurl }}/categories/Kafka">Kafka</a> |
+  <a href="{{ site.baseurl }}/categories/Docker">Docker</a>
+</div>
+
+<div align="center">
+  <h3>如何贡献文章</h3>
+  <p>欢迎提交技术文章到本博客！</p>
+  <p>1. 在 <code>_posts</code> 目录下创建新的 Markdown 文件</p>
+  <p>2. 在文件头部添加 Front Matter，指定文章标题、日期和分类</p>
+  <p>3. 文件命名格式为：<code>YYYY-MM-DD-文章标题.md</code></p>
+  <p>4. 提交 Pull Request 到本仓库</p>
 </div>

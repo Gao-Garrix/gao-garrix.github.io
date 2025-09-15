@@ -1,0 +1,30 @@
+---
+layout: default
+title: Home
+---
+
+<h1>Welcome to {{ site.title }}</h1>
+
+<p>{{ site.description }}</p>
+
+<h2>Latest Posts</h2>
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+      {% for category in post.categories %}
+        <span class="category-tag"><a href="{{ site.baseurl }}/categories/{{ category }}">{{ category }}</a></span>
+      {% endfor %}
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Categories</h2>
+<p>以下是博客文章的分类，点击分类可以查看该分类下的所有文章：</p>
+<ul>
+  {% for category in site.categories %}
+    <li>
+      <a href="{{ site.baseurl }}/categories/{{ category[0] }}">{{ category[0] }}</a> ({{ category[1].size }}篇文章)
+    </li>
+  {% endfor %}
+</ul>
