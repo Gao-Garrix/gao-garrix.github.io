@@ -1,3 +1,8 @@
+---
+layout: default
+title: Welcome to Gao Garrix's Personal Website
+---
+
 <!--# Welcome to Gao-Garrix's homepage!-->
 
 <div align="center">
